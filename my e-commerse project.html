@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Floral Dress - My Shop</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f9f9f9;
+        }
+
+        .product-container {
+            display: flex;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        .image-section img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .info-section {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        .price {
+            font-size: 24px;
+            color: #e44d26;
+            font-weight: bold;
+        }
+
+        .size-picker {
+            margin: 20px 0;
+        }
+
+        select {
+            padding: 10px;
+            width: 100%;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .buy-btn {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .buy-btn:hover {
+            background: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="product-container">
+        <div class="image-section text-center">
+            <img src="data:image/jpeg;base64,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" alt="Dress Image">
+        </div>
+
+        <div class="info-section">
+            <h1>Summer Floral Dress</h1>
+            <p class="price">Rs.550</p>
+            <p>A beautiful, lightweight dress perfect for sunny days and garden parties. Made from 100% organic cotton.</p>
+
+            <div class="size-picker">
+                <label for="size">Choose Size:</label>
+                <select id="size">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>Extra Large</option>
+                </select>
+            </div>
+
+            <button class="buy-btn">Add to Cart</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
